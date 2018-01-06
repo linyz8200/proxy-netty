@@ -1,0 +1,14 @@
+ext {
+    msgpackVersion              = "0.6.12"
+    nettyVersion                = "4.1.19.Final"
+    fastJsonVersion             = "1.2.44"
+
+    libraries = [
+            msgpack:    	"org.msgpack:msgpack:${msgpackVersion}",
+            netty:    	    "io.netty:netty-all:${nettyVersion}",
+            fastJson:       "com.alibaba:fastjson:${fastJsonVersion}"
+
+]
+
+
+}
